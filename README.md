@@ -2,6 +2,10 @@
 
 A standalone local review desk for small FastAPI code changes. Supply two source snapshots and shared HTTP contracts, then compare actual results from separate Docker containers. A dark graphite / lime interface puts code differences and before/after evidence first.
 
+![Proof dashboard](docs/screenshot.png)
+
+[Verified real PR workflow](https://github.com/saicharanteja-vulli/relay-agent-gateway/pull/1): failing required check blocked merging; the correction passed all four candidate checks in GitHub and locally. The PR was left unmerged.
+
 ## Start
 
 Requires Python 3.11+ (tested with 3.14), Docker Desktop or a working Docker Engine, and a browser. No Orbit or Relay installation is needed.
